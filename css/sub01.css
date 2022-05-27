@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'GowunBatang-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunBatang-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;}
+@font-face {
+        font-family: 'GowunBatang-Regular';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunBatang-Regular.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none; color: #583C31;}
+
+body{font-family: 'GowunBatang-Bold'; font-size: 20px; line-height: 40px;}
+
+/*header*/
+
+#header{width: 100%; height: 100px; background-color: #583C31;}
+.header_inner{width: 1320px; height: 100%; margin: 0 auto; text-align: center; position: relative;}
+.nav{height: 100%; position: absolute; left: 50%; margin-left: -544.315px; font-size: 20px;}
+.nav li{float: left;}
+.nav li a{display: block; padding: 30px 80px; color: #F0E4CF;}
+.nav li:first-child a{padding: 30px 90px 30px 0px;}
+.nav li:last-child a{padding: 30px 0px 30px 90px;}
+.nav li:nth-child(3) a{padding: 12px 85px 12px 74px;}
+.nav li a:hover{color: #F0C599;}
+
+
+/*banner*/
+
+#banner{width: 100%; height: 510px; background: gray;}
+
+
+/*contents*/
+#contents{width: 100%; height: 3700px; background: url(../images/main-bg.jpg) no-repeat center top;}
+
+.title{text-align: center; padding-top: 150px; padding-bottom: 150px; color: #583C31; font-size: 30px;}
+
+.brand1{width: 1325px; height: 598px; margin: 0 auto; background: url(../images/brand1.jpg) no-repeat center top; box-sizing: border-box;}
+.brand2{width: 1325px; height: 354px; margin: 0 auto; background: url(../images/brand2.jpg) no-repeat center top;}
+.brand3{width: 1325px; height: 354px; margin: 0 auto; background: url(../images/brand3.jpg) no-repeat center top;}
+.brand4{width: 1325px; height: 354px; margin: 0 auto; background: url(../images/brand4.jpg) no-repeat center top;}
+.brand5{width: 1325px; height: 354px; margin: 0 auto; background: url(../images/brand5.jpg) no-repeat center top;}
+.brand6{width: 1325px; height: 354px; margin: 0 auto; background: url(../images/brand6.jpg) no-repeat center top;}
+.brand7{width: 1325px; height: 598px; margin: 0 auto; background: url(../images/brand7.jpg) no-repeat center top; padding-bottom: 350px;}
+
+
+.brand1_text{width: 660px; float: left; text-align: center; color: #F0E4CF; padding: 160px 20px 0px 28px;}
+.brand1_text h1{padding-bottom: 40px; font-size: 35px; line-height: 50px;}
+.brand1_text p{font-size: 19px; font-family: 'GowunBatang-Regular'; line-height: 35px;}
+
+.brand2_text{width: 660px; float: right; text-align: center; color: #583C31; padding: 61px 35px 0px 0px;}
+.brand2_text h2{padding-bottom: 30px; font-size: 28px; line-height: 50px;}
+.brand2_text p{font-size: 17px; line-height: 35px;}
+
+.brand3_text{width: 660px; float: left; text-align: center; color: #3e2721; padding: 61px 0px 0px 25px;}
+.brand3_text h2{padding-bottom: 30px; font-size: 28px; line-height: 50px;}
+.brand3_text p{font-size: 17px; line-height: 35px;}
+
+.brand4_text{width: 660px; float: right; text-align: center; color: #452d27; padding: 60px 35px 0px 0px;}
+.brand4_text h2{padding-bottom: 27px; font-size: 28px; line-height: 50px;}
+.brand4_text p{font-size: 17px; line-height: 35px;}
+
+.brand5_text{width: 660px; float: left; text-align: center; color: #3e2721; padding: 86px 0px 0px 25px;}
+.brand5_text h2{padding-bottom: 30px; font-size: 28px; line-height: 50px;}
+.brand5_text p{font-size: 17px; line-height: 35px;}
+
+.brand6_text{width: 660px; float: right; text-align: center; color: #452d27; padding: 63px 35px 0px 0px;}
+.brand6_text h2{padding-bottom: 30px; font-size: 28px; line-height: 50px;}
+.brand6_text p{font-size: 17px; line-height: 35px;}
+
+.brand7_text{width: 660px; float: right; text-align: center; color: #F0E4CF; padding: 227px 35px 0px 18px;}
+.brand7_text h1{padding-bottom: 35px; font-size: 35px; line-height: 50px;}
+
+
+
+
+
+
+
+
+
+
+
+/*footer s*/
+
+#footer{width: 100%; height: 330px; background-color: #583C31;}
+.footer_inner{width: 1320px; height: 100%; margin: 0 auto;}
+
+.list1{float: left; height: 100px; width: 900px;}
+.list1 li{float: left; height: 40px; margin-top: 39px;}
+.list1 li a{padding: 0px 18px; color: #F0E4CF; font-size: 15px; border-right: 1px solid #f0e4cf8c;}
+.list1 li:first-child a{padding-left: 0px;}
+.list1 li:nth-child(2) a{color: #fd9166;}
+.list1 li:last-child a{border-right: none;}
+.list1 li:hover a{color: #F0C599;}
+
+.list2{float: right; height: 100px; width: 174px;}
+.list2 li{float: left; height: 40px; margin-top: 45px;}
+.list2 li a{display: block; margin-left: 25px; width: 40px; height: 40px;}
+.list2 li:nth-child(1) a{margin-top: 4px; margin-right: 2px;}
+.list2 li:nth-child(2) a{margin-top: 1px;}
+.list2 li:nth-child(3) a{margin-left: 30px; width: 12px;}
+
+
+.list3{float: left;  margin-top: 25px; font-size: 14px; color: #F0E4CF;}
+
+
+.list4{float: right; text-align: right; color: #F0E4CF; margin-top: 10px;}
+.list4 li:nth-child(1){font-size: 19px;}
+.list4 li:nth-child(2){font-size: 27px; text-decoration: underline; margin-top: 5px;}
+.list4 li:nth-child(3){font-size: 14px; margin-top: 10px;}
+.list4 li:nth-child(4){font-size: 14px;}
