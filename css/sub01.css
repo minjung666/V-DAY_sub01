@@ -32,13 +32,14 @@ body{font-family: 'GowunBatang-Bold'; font-size: 20px; line-height: 40px;}
 
 /*banner*/
 
-#banner{width: 100%; height: 510px; background: gray;}
+#banner{width: 100%; height: 510px; background: url(../images/banner.jpg) no-repeat center top; position: relative;}
+#banner>span{width: 226.58px; height:40px; color: #f0e4cf; font-size: 45px; position: absolute; top: 50%; left: 50%;  margin: -20px 0 0 -113.29px; font-family: 'GowunBatang-Regular'; text-shadow: 10px 10px 10px #583C31;}
 
 
 /*contents*/
 #contents{width: 100%; height: 3700px; background: url(../images/main-bg.jpg) no-repeat center top;}
 
-.title{text-align: center; padding-top: 150px; padding-bottom: 150px; color: #583C31; font-size: 30px;}
+.title{text-align: center; padding-top: 50px; padding-bottom: 150px; color: #583C31; font-size: 30px;}
 
 .brand1{width: 1325px; height: 598px; margin: 0 auto; background: url(../images/brand1.jpg) no-repeat center top; box-sizing: border-box;}
 .brand2{width: 1325px; height: 354px; margin: 0 auto; background: url(../images/brand2.jpg) no-repeat center top;}
@@ -105,6 +106,8 @@ body{font-family: 'GowunBatang-Bold'; font-size: 20px; line-height: 40px;}
 .list2 li:nth-child(1) a{margin-top: 4px; margin-right: 2px;}
 .list2 li:nth-child(2) a{margin-top: 1px;}
 .list2 li:nth-child(3) a{margin-left: 30px; width: 12px;}
+
+.list2 li:hover img{opacity: 0.5;}
 
 
 .list3{float: left;  margin-top: 25px; font-size: 14px; color: #F0E4CF;}
